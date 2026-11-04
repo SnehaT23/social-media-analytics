@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Insights Hub</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #222;
+        }
+
+        header {
+            background: #1e3a8a;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        nav {
+            background: #172554;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 70px 20px;
+            background: white;
+        }
+
+        .hero h2 {
+            font-size: 32px;
+            color: #1e3a8a;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+
+        button {
+            background: #2563eb;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #1d4ed8;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 40px 20px;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            padding: 25px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px #ddd;
+        }
+
+        .card h3 {
+            color: #1e3a8a;
+            margin-bottom: 12px;
+        }
+
+        .card p {
+            line-height: 1.5;
+        }
+
+        footer {
+            background: #172554;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Social Media Insights Hub</h1>
+        <p>Understand Social Media and Digital Engagement</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#platforms">Platforms</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h2>Welcome to Social Media Insights Hub</h2>
+
+        <p>
+            Explore social media platforms and learn how digital
+            engagement helps businesses grow.
+        </p>
+
+        <button onclick="exploreContent()">
+            Explore More
+        </button>
+    </section>
+
+    <section id="about" class="hero">
+        <h2>About Us</h2>
+
+        <p>
+            This website is created for educational purposes
+            to understand website traffic, user engagement,
+            and social media analytics using Google Analytics.
+        </p>
+    </section>
+
+    <section id="platforms" class="cards">
+
+        <div class="card">
+            <h3>Instagram</h3>
+            <p>Explore visual content and digital marketing.</p>
+        </div>
+
+        <div class="card">
+            <h3>Facebook</h3>
+            <p>Understand audience interaction and engagement.</p>
+        </div>
+
+        <div class="card">
+            <h3>LinkedIn</h3>
+            <p>Discover professional networking and marketing.</p>
+        </div>
+
+    </section>
+
+    <section id="contact" class="hero">
+        <h2>Contact Us</h2>
+        <p>Email: socialmedia@example.com</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Social Media Insights Hub</p>
+        <p>Google Analytics Practical Project</p>
+    </footer>
+
+    <script>
+        function exploreContent() {
+            alert("Welcome! Thank you for exploring our website.");
+        }
+    </script>
+
+</body>
+</html>
